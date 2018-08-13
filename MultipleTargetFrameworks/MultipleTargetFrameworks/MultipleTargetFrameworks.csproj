@@ -6,6 +6,7 @@
     <ApplicationIcon />
     <StartupObject />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>..\..\pkg</PackageOutputPath>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
 
@@ -14,9 +15,5 @@
       <HintPath>System</HintPath>
     </Reference>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy $(ProjectDir)bin\$(ConfigurationName)\*.nupkg $(SolutionDir)..\pkg" />
-  </Target>
 
 </Project>
