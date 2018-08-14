@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleTargetFrameworks", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp.Framework452", "ClientApp.Framework452\ClientApp.Framework452.csproj", "{BEEF4C6B-B1EB-43CD-A623-D885751F5432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp.Core20", "ClientApp.Core20\ClientApp.Core20.csproj", "{93C15A00-1CD3-43AA-A788-BBF3C9890CA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp.Core20", "ClientApp.Core20\ClientApp.Core20.csproj", "{93C15A00-1CD3-43AA-A788-BBF3C9890CA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp.Core21", "ClientApp.Core21\ClientApp.Core21.csproj", "{C3125976-D1C8-4B4B-8935-32DF67047D7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp.Core21", "ClientApp.Core21\ClientApp.Core21.csproj", "{C3125976-D1C8-4B4B-8935-32DF67047D7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C032605-3542-4772-AA61-601FFA440179}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
