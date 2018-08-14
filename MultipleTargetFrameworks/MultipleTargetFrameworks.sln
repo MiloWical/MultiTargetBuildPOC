@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp.Core21", "ClientA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C032605-3542-4772-AA61-601FFA440179}"
 	ProjectSection(SolutionItems) = preProject
-		NuGet.config = NuGet.config
+		nuget.config = nuget.config
 	EndProjectSection
 EndProject
 Global
